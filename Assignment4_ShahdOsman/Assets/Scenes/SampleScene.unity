@@ -623,7 +623,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1491011989}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &938572967
 BoxCollider:
@@ -722,7 +722,7 @@ Transform:
   m_Children:
   - {fileID: 541920386}
   m_Father: {fileID: 1491011989}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1166428348
 MeshFilter:
@@ -858,8 +858,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1491011988}
   mHiddenRoot: {fileID: 0}
-  mTargetName: SpongeBob
-  mDatasetName: Vuforia/lab12_.xml
+  mTargetName: Drone
+  mDatasetName: Vuforia/VuforiaMars_Images.xml
   mCastedBehaviour: {fileID: 1491011988}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -922,13 +922,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: SpongeBob
+  mTrackableName: Drone
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/lab12_.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/VuforiaMars_Images.xml
+  mAspectRatio: 1.7272727
   mImageTargetType: 0
-  mWidth: 0.15
-  mHeight: 0.15
+  mWidth: 0.06985
+  mHeight: 0.12065
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -984,7 +984,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1491011989}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2131777504
 BoxCollider:
